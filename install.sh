@@ -1,3 +1,4 @@
+mkdir ~/nanobak
 cp zshrc ~/.zshrc
 cp nanorc ~/.nanorc
 cp sxhkdrc ~/.config/sxhkd/sxhkdrc
