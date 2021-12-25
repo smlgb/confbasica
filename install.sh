@@ -3,6 +3,7 @@ yay -Sy kitty sxhkd polybar bspwm python ttf-feather ttf-iosevka-nerd libjsoncpp
 mkdir ~/nanobak
 cp zshrc ~/.zshrc
 cp nanorc ~/.nanorc
+mkdir ~/.config/sxhkd
 cp sxhkdrc ~/.config/sxhkd/sxhkdrc
 cp sxhkdrc ~/.config/bspwm/sxhkd/sxhkdrc
 cp bspwmrc  ~/.config/bspwm/bspwmrc
