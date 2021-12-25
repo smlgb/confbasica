@@ -1,4 +1,4 @@
-yay -Sy kitty sxhkd polybar bspwm python ttf-feather ttf-iosevka-nerd libjsoncpp moc
+yay -Sy kitty sxhkd polybar bspwm python ttf-feather ttf-iosevka-nerd jsoncpp moc
 #sudo pacman -Sy kitty sxhkd polybar bspwm python ttf-feather ttf-iosevka-nerd
 mkdir ~/nanobak
 cp zshrc ~/.zshrc
