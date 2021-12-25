@@ -1,4 +1,5 @@
-sudo pacman -Sy kitty sxhkd polybar bspwm python ttf-feather ttf-iosevka-nerd
+yay -Sy kitty sxhkd polybar bspwm python ttf-feather ttf-iosevka-nerd
+#sudo pacman -Sy kitty sxhkd polybar bspwm python ttf-feather ttf-iosevka-nerd
 mkdir ~/nanobak
 cp zshrc ~/.zshrc
 cp nanorc ~/.nanorc
