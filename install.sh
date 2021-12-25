@@ -15,3 +15,4 @@ chmod +x ~/.config/polybar/launch.sh
 chmod +x ~/.config/polybar/scripts/*
 bspc wm -r
 pkill -USR1 -x sxhkd
+openbox --exit
