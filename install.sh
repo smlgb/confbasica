@@ -6,3 +6,5 @@ cp bspwmrc  ~/.config/bspwm/bspwmrc
 cp kitty.conf ~/.config/kitty/kitty.conf
 mv ~/.config/polybar ~/.config/polybar.bak 
 cp -r polybar ~/.config/polybar
+chmod +x ~/.config/polybar/launch.sh
+chmod +x ~/.config/polybar/scripts/*
