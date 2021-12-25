@@ -39,7 +39,7 @@ zle -N history-beginning-search-forward-end history-search-end
 
 ### Set variables
 #################
-PATH="/usr/local/bin:/usr/local/sbin/:$PATH"
+PATH="/home/samgon/bin:/usr/local/bin:/usr/local/sbin/:$PATH"
 HISTFILE=$HOME/.zhistory
 HISTSIZE=1000
 SAVEHIST=1000
@@ -179,6 +179,11 @@ mcd () {
 #############
 alias cls="clear"
 alias ..="cd .."
+alias ...="cd ../.."
+alias ....="cd ../../.."
+alias .....="cd ../../../.."
+
+
 alias cd..="cd .."
 alias ll="ls -lhisa --color=auto"
 alias home="cd ~"
@@ -190,12 +195,11 @@ alias userlist="cut -d: -f1 /etc/passwd"
 alias ls="ls -CF --color=auto"
 alias lsl="ls -lhFA | less"
 alias free="free -mt"
-alias du="du -ach | sort -h"
 alias ps="ps auxf"
 alias psgrep="ps aux | grep -v grep | grep -i -e VSZ -e"
 alias wget="wget -c"
 alias histg="history | grep"
-alias myip="curl http://ipecho.net/plain; echo"
+alias miip="curl http://ipecho.net/plain; echo"
 alias logs="find /var/log -type f -exec file {} \; | grep 'text' | cut -d' ' -f1 | sed -e's/:$//g' | grep -v '[0-9]$' | xargs tail -f"
 alias folders='find . -maxdepth 1 -type d -print0 | xargs -0 du -sk | sort -rn'
 alias grep='grep --color=auto'
@@ -203,15 +207,21 @@ alias grep='grep --color=auto'
 #Mis Alias
 alias pacu="sudo pacman -Syu"
 alias paci="sudo pacman -S"
+alias poly="cd ~/.config/polybar"
+alias docu="cd /usr/share/doc"
 alias yayu="yay -Syu"
-alias yayi="yay -S"
+alias yaync="yay -Syu --noconfirm"
 alias neo="neofetch"
-function rmount () rclone mount --vfs-cache-mode writes $1: ~/cloud/$1
-alias tkill="killall chromium;killall Exodus"
+function rmount () rclone mount --vfs-cache-mode writes $1: /home/samgon/cloud/$1
+function guardar() tar -jcvf $1.tar.bz2 $1
+alias setusint="setxkbmap -layout us -variant intl"
+alias tkill="killall sway;killall bspwm;killall chromium;killall java"
 alias emac="emacs -nw"
 alias ali="alias | grep "
+alias busca="find . | grep "
 alias gcl="git clone"
 alias key="sha512sum"
+alias rset="reset && echo && neofetch && echo && echo" 
 
 ### Bind keys
 #############

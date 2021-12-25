@@ -3,7 +3,8 @@ sxhkd &
 xrandr -s 1920x1080 &
 picom &
 nitrogen --restore &
-xfce4-panel &
+~/.config/polybar/launch.sh &
+
 setxkbmap -layout us -variant intl
 maestral start
 
