@@ -1,3 +1,4 @@
+sudo pacman -Sy kitty sxhkd polybar bspwm python
 mkdir ~/nanobak
 cp zshrc ~/.zshrc
 cp nanorc ~/.nanorc
@@ -10,5 +11,4 @@ mv ~/.config/polybar ~/.config/polybar.bak
 cp -r polybar ~/.config/polybar
 chmod +x ~/.config/polybar/launch.sh
 chmod +x ~/.config/polybar/scripts/*
-sudo pacman -Sy kitty sxhkd polybar bspwm
 bspc wm -r
