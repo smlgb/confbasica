@@ -1,5 +1,6 @@
 yay -Sy sxhkd polybar bspwm python ttf-feather ttf-iosevka-nerd jsoncpp moc zsh-syntax-highlighting viewnior scrot
 mkdir ~/nanobak
+chmod +x *
 cp zshrc ~/.zshrc
 cp nanorc ~/.nanorc
 mkdir ~/.config/sxhkd
