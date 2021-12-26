@@ -4,7 +4,7 @@
 
 # Menu Apagar [https://github.com/adi1090x/rofi]
 ctrl + alt + Delete
-#	/home/samgon/.config/rofi/bin/applet_powermenu
+#	~/.config/rofi/bin/applet_powermenu
 	~/.config/polybar/scripts/powermenu.sh
 
 # Controlar mpd usando los camando de mpc
@@ -16,11 +16,11 @@ super + {z,x,c,v}
 # Capturar Pantalla [https://github.com/adi1090x/rofi]
 # Pide instalar scrot y viewnior
 alt + c
-	/home/samgon/.config/polybar/scripts/applet_screenshot.sh
+	~/.config/polybar/scripts/applet_screenshot.sh
 
 # Lanzar TLauncher
 alt + m
-	java -jar /home/samgon/Descargas/TLauncher-2.83/TLauncher-2.83.jar
+	java -jar ~/Descargas/TLauncher-2.83/TLauncher-2.83.jar
 
 # Recorrer Escritorios control + alt + Derecha,Izquierda
 ctrl + alt + {Left,Right}
@@ -43,11 +43,11 @@ super + Escape
 
 # terminal emulator
 super + Return
-	kitty
+	alacritty
 
 # program launcher
 super + r
-	/home/samgon/.config/polybar/scripts/launcher.sh
+	~/.config/polybar/scripts/launcher.sh
 #	rofi -show drun -font "sans 20"
 
 #da	
