@@ -1,5 +1,4 @@
-yay -Sy kitty sxhkd polybar bspwm python ttf-feather ttf-iosevka-nerd jsoncpp moc zsh-syntax-highlighting
-#sudo pacman -Sy kitty sxhkd polybar bspwm python ttf-feather ttf-iosevka-nerd
+yay -Sy sxhkd polybar bspwm python ttf-feather ttf-iosevka-nerd jsoncpp moc zsh-syntax-highlighting viewnior scrot
 mkdir ~/nanobak
 cp zshrc ~/.zshrc
 cp nanorc ~/.nanorc
